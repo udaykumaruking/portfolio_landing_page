@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'components/navigation.dart';
 import 'components/profile.dart';
+import 'components/text.dart';
 
 void main() => runApp(MyApp());
 
@@ -30,6 +31,7 @@ class MyHomePage extends StatelessWidget {
           SizedBox(
             height: 30,
           ),
+          TextDisplay()
         ],
       ),
     );
