@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-//import 'package:google_fonts/google_fonts.dart';
 
 import 'components/navigation.dart';
+import 'components/profile.dart';
 
 void main() => runApp(MyApp());
 
@@ -23,6 +23,10 @@ class MyHomePage extends StatelessWidget {
       body: Column(
         children: <Widget>[
           Navigation(),
+          SizedBox(
+            height: 30,
+          ),
+          Profile(),
         ],
       ),
     );
