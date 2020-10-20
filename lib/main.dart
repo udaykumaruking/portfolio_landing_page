@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+//import 'package:google_fonts/google_fonts.dart';
 
 import 'components/navigation.dart';
 
@@ -27,10 +28,3 @@ class MyHomePage extends StatelessWidget {
     );
   }
 }
-
-// class HomePage extends StatelessWidget {
-//   @override
-//   Widget build(BuildContext context) {
-//     return Navigation();
-//   }
-// }
