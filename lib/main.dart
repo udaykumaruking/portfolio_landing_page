@@ -27,6 +27,9 @@ class MyHomePage extends StatelessWidget {
             height: 30,
           ),
           Profile(),
+          SizedBox(
+            height: 30,
+          ),
         ],
       ),
     );
