@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:portfolio_landing_page/components/button.dart';
 
 import 'components/navigation.dart';
 import 'components/profile.dart';
@@ -31,7 +32,11 @@ class MyHomePage extends StatelessWidget {
           SizedBox(
             height: 30,
           ),
-          TextDisplay()
+          TextDisplay(),
+          SizedBox(
+            height: 35,
+          ),
+          ButtonConnect(),
         ],
       ),
     );

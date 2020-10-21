@@ -18,10 +18,10 @@ class TextDisplay extends StatelessWidget {
             ),
           ),
           SizedBox(
-            height: 25,
+            height: 30,
           ),
           Text(
-            'Enhancing online\nappearance of\nbrands and products.',
+            'Enhancing online appearance \nof brands and products.',
             //'Web Developer\nGraphic Designer\nApp Developer.',
             textAlign: TextAlign.center,
 
@@ -106,20 +106,10 @@ class TextDisplay extends StatelessWidget {
                     color: Colors.redAccent,
                     textStyle: TextStyle(
                       fontSize: 25,
-                      fontWeight: FontWeight.w300,
+                      fontWeight: FontWeight.w400,
                     ),
                   ),
                 ),
-                // TextSpan(
-                //   text: '20 websites.',
-                //   style: GoogleFonts.montserrat(
-                //     color: Colors.black,
-                //     textStyle: TextStyle(
-                //       fontSize: 25,
-                //       fontWeight: FontWeight.w600,
-                //     ),
-                //   ),
-                // ),
               ],
             ),
           ),
